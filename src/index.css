@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../public/images/greyz.png")
+}
+.navbar {
+    margin-bottom: 5vw;
+    background-color: #EF626C;
+}
+
+.nav-brand {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4vw;
+    color: white;
+}
+
+.nav-routes {
+    color: white;
+}
+
+.well {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Notes layout styling*/
+.media{width:23%;background-color:#302f2b;;float:left;margin:20px 5px;border-radius: 5px;height:300px;}
+.media:first-child{margin: 20px 5px;}
+.media-object{width:100%;padding:1em;}
+.media-body{padding:1em;color:#87837d;}
+
+.media-heading{color:#fff}
+@media (max-width: 767px) { .media{width:90%;height:auto;margin:auto;padding:0} }
+
+/*Add Note styling*/
+.add-btn {
+  margin-top: 1vw;
+}
+
+
+
+
+
+
